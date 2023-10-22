@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Game
 {
-    private  List<Tree> trees;
-    private  List<TreePosition> treePositions;
+    private List<Tree> trees;
+    private List<TreePosition> treePositions;
+    //private GameObject createdTree;
 
-    private  TreeFactory treeFactory;
+    private TreeFactory treeFactory;
 
     public Game()
     {
@@ -33,8 +34,7 @@ public class Game
 
     private void renderTree(int id)
     {
-        //this is where we would draw it in the scene if I could :^)
-               
+        //createdTree = UnityEngine.Object.Instantiate(trees[id], treePositions[id], Quaternion.identity);
     }
 }
 

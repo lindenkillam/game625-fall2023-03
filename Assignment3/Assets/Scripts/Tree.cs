@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class Tree
 {
-    private  string color;
-    private  int height;
+    private string color;
+    private int height;
 
     public Tree(int height)
     {

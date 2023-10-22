@@ -33,5 +33,3 @@ public class TreePosition
         this.y = y;
     }
 }
-
-
