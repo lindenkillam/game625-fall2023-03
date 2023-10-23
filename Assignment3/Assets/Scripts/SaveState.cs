@@ -7,7 +7,7 @@ public class SaveState : MonoBehaviour
     private float playerX;
     private float playerY;
 
-    public SaveState(x, y)
+    public SaveState(float x, float y)
     {
         this.playerX = x;
         this.playerY = y;
