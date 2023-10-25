@@ -12,4 +12,14 @@ public class SaveState : MonoBehaviour
         this.playerX = x;
         this.playerY = y;
     }
+
+    public float getPlayerX()
+    {
+        return playerX;
+    }
+
+    public float getPlayerY()
+    {
+        return playerY;
+    }
 }
